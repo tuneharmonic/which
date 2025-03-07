@@ -1,0 +1,24 @@
+{
+  "name": "which",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuneharmonic/which.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuneharmonic/which/issues"
+  },
+  "homepage": "https://github.com/tuneharmonic/which#readme",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/io": "^1.1.3"
+  }
+}

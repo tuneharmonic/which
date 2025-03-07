@@ -1,0 +1,12 @@
+name: 'Which'
+description: 'Find the path to a specified command and store as an output'
+inputs:
+  command:
+    description: 'The command to find on the runner'
+    required: true
+outputs:
+  path:
+    description: 'The path to the specified command'
+runs:
+  using: 'node20'
+  main: 'index.js'
