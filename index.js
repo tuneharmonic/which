@@ -1,5 +1,5 @@
-const core = require('@actions/core')
-const io = require('@actions/io')
+const core = require('@actions/core');
+const io = require('@actions/io');
 
 async function run() {
     try {
@@ -11,6 +11,8 @@ async function run() {
         console.log(`Found command: ${command} at path: ${path}`);
         core.setOutput('path', path);
     } catch (error) {
-        core.setFailed(error.message)
+        core.setFailed(error.message);
     }
 }
+
+run();
